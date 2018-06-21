@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  close-deal:
+    image: nguyenviethoa/close-deal:build-latest
+    deploy:
+      replicas: 1
+    working_dir: /app  
+    ports:
+      - 8087:4000
+    command: "npm start"  

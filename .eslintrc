@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": "rallycoding",
+  "rules": {
+    "strict": 0,
+    "arrow-body-style": 0,
+    "camelcase": 0,
+    "no-underscore-dangle": 0,
+    "max-len": [2, {"code": 180, "tabWidth": 4, "ignoreUrls": true}]
+  },
+  "plugins": [
+    "babel"
+  ]
+}
